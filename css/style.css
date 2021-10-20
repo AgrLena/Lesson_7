@@ -1,0 +1,206 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:500&display=swap&subset=cyrillic-ext ");
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Poppins", serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	
+}
+/* ------------------------------ */
+.wrapper{
+	background: url(../img/logo.png)100% 100%/45% 70% no-repeat fixed, url(../img/Oggy_and_the_Cockroaches.png)90% 0%/40% 50%  no-repeat fixed,radial-gradient(circle, #22c1c399 20%, #452dfd 120%) fixed;
+}
+.boxes{
+	width: 60%;
+	text-align:center;
+	margin: 0px 0px 30px 0px;
+	
+}
+.boxes *{
+	display: inline-block;
+	max-width: 250px;
+	margin: 15px;
+	padding: 20px;
+	border: 1px solid #5f285f;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 5px #5f285f;
+	
+}
+.box_1 {
+	background:#5f285f6c;
+}
+.box_2 {
+	background: linear-gradient(0deg, #22c2c3 0%, #d151dc 100%);
+}
+.box_3 {
+	background:  #5f285f6c url(../img/mini.png) ;
+}
+.box_4 {
+	background: #5f285f6c url(../img/mini.png)0% 100% repeat-x; 
+}
+.box_5 {
+	background: #5f285f6c url(../img/mini.png)100% 0% repeat-y; 
+}
+.box_6 {
+	background:#5f285f6c url(../img/mini.png)50%  no-repeat; 
+}
+.box_7 {
+	background:#5f285f6c url(../img/mini.png) space ;
+}
+.box_8 {
+	background:#5f285f6c url(../img/mini.png) round ;
+}
+.box_9 {
+	background:#5f285f6c url(../img/mini.png) fixed;
+}
+.box_10 {
+	background:#5f285f6c url(../img/mini.png) 100% 0/ 10%;
+}
+.box_11 {
+	background:#5f285f6c url(../img/mini.png) 0/30% space;
+}
+.box_12{
+	background:#5f285f6c url(../img/mini.png) 0/cover ;
+}
+.box_13, .box_14{
+	vertical-align: top;
+	width: 250px;
+	min-height: 170px;
+	padding: 10px 0px 0px 0px;
+	background: #5f285f6c;
+}
+ .box_13 li{
+	background: url(../img/cockroach_1.png) 0 0/20px no-repeat;
+	display: block;
+}
+ .box_13 ul,  .box_13 li, .box_14 ul, .box_14 li {
+	border: none;
+	box-shadow:none;
+	margin: 0px;
+	padding: 0px;
+	line-height: 20px;
+	text-align: left;
+	padding: 10px 0px 10px 20px;
+	
+}
+.box_14 li{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 70px;
+	background: url(../img/cockroach_1.png) 50% 0/20px no-repeat;
+	padding: 40px 10px 10px 10px;
+	text-transform: uppercase;
+}
+.box_15{
+	background: url(../img/oggi.jfif) 50%/cover no-repeat;
+	
+}
+.box_16{
+	color: transparent;
+	background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 80%),url(../img/oggi.jfif) 50%/cover no-repeat;
+
+}
+.box_17{ 
+	background: url(../img/oggy_1.png)0 0 no-repeat ,url(../img/cockroach.png)10% 125px/auto 25% no-repeat, url(../img/cockroach_1.png) 40% 85px/auto 50% no-repeat, url(../img/olivia.png) 120px 0px/ auto 100% no-repeat, linear-gradient(to right, #22c2c3 0%, #d151dc 100%);
+	color: transparent;
+
+}
+.box_18{
+	background:url(../img/nyam.png) 50% 100%/60% no-repeat, url(../img/fish.jpg) 50%/100px fixed;
+	color: transparent;
+}
+.container{
+	width: 60%;
+	}
+.homework {
+	max-width: 530px;
+	margin: 0px auto 30px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 5px #5f285f;
+	padding: 50px;
+   font-size: 24px;
+}
+.list li {
+	padding: 0px 50px 0px 0px;
+	margin: 0px 0px 20px 0px;
+	background: url(../img/mark.png) 100% 0% no-repeat;
+}
+
+.sublist li{
+	padding: 0px 60px 0px 30px;
+	margin: 0px 0px 20px 0px;
+	background: url(../img/mark.png) 90% 0% no-repeat;
+}
+.list_2 li{
+	text-align: right;
+	font-size: 16px;
+	padding: 0px 40px 0px 30px;
+	margin: 0px 15px 0px 0px;
+	background:url(../img/mark.png)100% 0%/16px 16px no-repeat;
+}
+.last{
+	background:url(../img/last.png)90% 100% no-repeat;
+	max-width: 530px;
+	margin: 0px auto 30px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 5px #5f285f;
+	padding: 60px 60px 40px 50px;
+   font-size: 24px;
+	}
+.link{
+	width: 50%;
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.15px;
+	text-align: center;
+	border-radius:20px;
+	padding: 10px 20px;
+	background: linear-gradient( to right, #0c97c2 0%,#e4fa85 50%, #d151dc 100%);
+	box-shadow: 2px 5px 10px 0px #5680ce, 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+
+}
